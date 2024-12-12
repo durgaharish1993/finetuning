@@ -1,0 +1,13 @@
+
+#Delete cache
+from huggingface_hub import scan_cache_dir
+hf_cache_info = scan_cache_dir()
+
+
+#Select and delete cache
+pip install huggingface_hub["cli"]
+huggingface-cli delete-cache
+
+
+#clean up the data
+data_name.cleanup_cache_files()
