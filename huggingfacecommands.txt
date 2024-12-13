@@ -11,3 +11,21 @@ huggingface-cli delete-cache
 
 #clean up the data
 data_name.cleanup_cache_files()
+
+#wand commands in the terminal
+
+wand login 
+wandb login --relogin    # if any error in the relogin if you restart
+
+d7dcfbb00cd7321df3c9801a2c43af0200a0965d 
+
+Start a virtual environment inside the directory:
+
+python -m venv .env
+Activate and deactivate the virtual environment with the following commands:
+
+# Activate the virtual environment
+source .env/bin/activate
+
+# Deactivate the virtual environment
+source .env/bin/deactivate
