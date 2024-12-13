@@ -1,5 +1,7 @@
 # Training Models Faster with PEFT 🚀
 
+![PEFT Illustration](assets/PEFT.png)
+
 **PEFT (Parameter-Efficient Fine-Tuning)** enables to train models faster and more efficiently. By optimizing memory usage, computational resources, and cost, PEFT achieves high performance without unnecessary overhead.
 
 ## Key Benefits:
